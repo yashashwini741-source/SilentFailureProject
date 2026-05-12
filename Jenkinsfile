@@ -2,21 +2,23 @@ pipeline {
     agent any
 
     stages {
+
         stage('Clone Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/yashashwini741-source/SilentFailureProject.git'
+                git branch: 'main', url: 'YOUR_GITHUB_REPO_URL'
             }
         }
 
         stage('Build') {
             steps {
-                echo 'Building the project...'
+                echo 'Building project...'
             }
         }
 
-        stage('Test') {
+        stage('Deploy') {
             steps {
-                echo 'Running tests...'
+                echo 'Deploying website...'
+                echo 'Open index.html manually or serve via local server'
             }
         }
     }
