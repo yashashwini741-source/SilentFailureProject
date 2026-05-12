@@ -1,1 +1,1 @@
-console.log("Webhook CI/CD working");
+console.log("Webhook Trigger Test 🚀");
