@@ -1,2 +1,2 @@
 # SilentFailureProject
-Jenkins CI/CD project
+Jenkins CI/CD project silent
